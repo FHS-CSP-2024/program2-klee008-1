@@ -79,7 +79,7 @@ name = input("What is your first name?")
 lastname = input("What is your last name?")
 address = input("What is your address?")
 print("- First name: " + name)
-print("- Last name: " + lname)
+print("- Last name: " + lastname)
 print("- Street address: " + address)
 print("- City and postal code: Folsom CA, 95630")
 
