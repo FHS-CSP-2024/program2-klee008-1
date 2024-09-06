@@ -50,15 +50,19 @@
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
 
+name = input("What is your name?")
 
-
-
+print("Hello," + name)
+print(name + " is a great name!")
 
 ## Problem 2 ##
 #Please write a script that: 
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
+
+name = input("What is your name?")
+print("! Hey " + name + "! " + name + " is a great name!")
 
 
 ## Problem 3 ##
@@ -71,16 +75,29 @@
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
 
+name = input("What is your first name?")
+lname = input("What is your last name?")
+address = input("What is your address?")
+print("- First name: " + name)
+print("- Last name: " + lname)
+print("- Street address: " + address)
+print("- City and postal code: Folsom CA, 95630")
+
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
 
+word1 = input("Give one word.")
+word2 = input("Give another word.")
+word3 = input("Give one last word.")
+print(word1 + "-" + word2 + "-" + word3)
 
 ## Problem 5 ##
 #Please write a script that: 
 # - Asks for a name and a year
 # - Prints out a short story that uses that information
+
 # Sample output:
 #Please type in a name: Mary
 #Please type in a year: 1572
@@ -88,3 +105,17 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+
+name = input("Give a name.")
+year = input("Give a year.")
+print("---------------------------------")
+
+print(name + " is a young child born in the year " + year + ".")
+print(name + " is terrible at everything he does.")
+print(name + " has bad grades and wants to be a McDonalds worker for the rest of his life.")
+
+
+
+
+
+
