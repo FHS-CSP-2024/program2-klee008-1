@@ -76,7 +76,7 @@ print("! Hey " + name + "! " + name + " is a great name!")
 #   - City and postal code: Folsom CA, 95630
 
 name = input("What is your first name?")
-lname = input("What is your last name?")
+lastname = input("What is your last name?")
 address = input("What is your address?")
 print("- First name: " + name)
 print("- Last name: " + lname)
